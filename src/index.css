@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    scroll-behavior: smooth;
+    transition: all 0.5s ease;
+    background-color: #F8E367;
+}
+
+.swiper-button-next::after,.swiper-button-prev::after{
+  color: black;
+}
+
+::-webkit-scrollbar{
+  height: 12px;
+  width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track{
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+  background: skyblue;
+  /* border-radius: 1ex; */
+  }
+
+/* .swiper-button-next{
+  right:7rem;
+}
+.swiper-button-prev{
+  left:-1rem;
+} */
+/* 
+:root{
+  --black: #343434;
+  --bg: #F8E367;
+  --shadow1: 0px 13px 48px -1px rgba(0, 0, 0, 0.25);
+  --shadow2:  0px 13px 46px rgba(0, 0, 0, 0.13);
+  --pink: #FE956F;
+}
+.App{
+
+
+  a{
+    text-decoration: none;
+    color: inherit
+  } */
